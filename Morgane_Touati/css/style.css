@@ -974,7 +974,8 @@ About
 	footer {
 		background: #242424;
 		padding-top: 18px;
-		position: absolute;
+		float: left;
+		clear: both;
 		width: 100%;
 	}
 	footer .copyright {
@@ -1096,7 +1097,7 @@ About
 	#xp{
 		height: auto;
 		width: auto;
-		margin-top: 19%;
+		margin-top: 2%;
 	}
 
 	#xp span.date{
