@@ -1,0 +1,41 @@
+body
+{
+	background: #FFCCCC;
+}
+
+#calculette
+{
+	width: 300px;
+	border: 2px solid black;
+	padding: 5px;
+	overflow: auto;
+}
+
+#chmps_cal
+{
+	width: 99%;
+	height: 36px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#number
+{
+	float: left;
+	width: 156px;
+}
+
+.num
+{
+	font-size: 20px;
+	height: 45px;
+	width: 45px;
+}
+
+#sym
+{
+	width: 90px;
+	float: right;
+}
+
+

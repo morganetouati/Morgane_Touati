@@ -1,0 +1,74 @@
+body
+{
+	width: 800px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+#contain
+{
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	width: 700px;
+	height: 512px;
+	overflow: hidden;
+}
+
+nav
+{
+	text-align: center;
+	position: relative;
+	top: 330px;
+	z-index: 1000;
+}
+
+#prev
+{
+	position: relative;
+	right: 400px;
+}
+
+#next
+{
+	position: relative;
+	left: 380px;
+}
+
+.slider img
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.slide
+{
+	width: 680px;
+	border:1px solid red;
+}
+
+h1
+{
+	font-size: 25px;
+	font-family: verdana;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

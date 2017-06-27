@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Paint</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>My Paint</h1>
+	<div id="boutons">
+		<button id = "ligne" onclick = "set('line')" value = "ligne">Ligne</button>
+		<button id = "cercle" onclick = "set('circle')" value = "cercle">Cercle</button>
+		<button id = "rectangle" onclick = "set('rectangle')" value= "rectangle">Rectangle</button>
+	</div>
+	<input id="clearCanvas" type="button" value="ClearCanvas" />
+	<div id="colors">
+	</div>
+	<canvas id="paint" height="800" width="800">
+		Le canvas n'est pas récupérable.
+	</canvas>
+<script src="canvas.js"></script>
+</body>
+</html>

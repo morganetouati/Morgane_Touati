@@ -1,0 +1,17 @@
+#left
+{
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin: 5px;
+	border: 2px solid red;
+}
+
+#right
+{
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin: 5px;
+	border: 2px solid black;
+}

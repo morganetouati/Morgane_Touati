@@ -1,0 +1,18 @@
+Projet Octocat
+
+Bonjour,
+
+Ce projet consiste Ã  crÃ©er un labyrinthe et Ã  aller jusqu'Ã  la sortie.
+
+Nous avons un Makefile. Faites make (ou make re) pour avoir l'exÃ©cutable.
+
+L'exÃ©cutable se lance via la commande "./octocat".
+
+Pour quitter le menu ou une partie en cours, tapez "q".
+Quitter une partie en cours fais retourner au menu.
+
+Lors de la partie, utilisez "w", "a", "s" ou "d" pour bouger dans le labyrinthe.
+
+Bon courage pour la correction.
+
+Cordialement.

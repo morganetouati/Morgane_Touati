@@ -1,0 +1,99 @@
+*
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background-image: url(bakg.jpg);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+h1
+{
+	color: white;
+	font-size: 35px;
+	margin-left: 970px;
+	padding-top: 25px;
+	margin-bottom: 15px;
+}
+
+#clearCanvas
+{
+	float: right;
+	margin-right: 182px;
+	border: 1px red solid;
+	border-radius: 10px;
+	width: 130px;
+	height: 34px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+#clearCanvas:hover
+{
+	background-color: #FD6C9E;
+}
+
+#boutons
+{
+	position: absolute;
+	left: 1489px;
+	top: 178px;
+}
+
+button
+{
+	width: 120px;
+	height: 34px;
+	color: white;
+	border: 1px red solid;
+	border-radius: 10px;
+	background-color: black;
+	font-size: 20px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: 130px;
+}
+
+button:hover
+{
+	background-color: #FD6C9E;
+}
+
+#colors
+{
+	float: left;
+	margin-left: 810px;
+}
+
+.swatch
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 2px 2px rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.swatch.active
+{
+	border: 2px solid red;
+	box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+canvas
+{
+	position: absolute;
+	top: 134px;
+	left: 654px;
+	border: 1px solid red;
+	background-color: white;
+}
